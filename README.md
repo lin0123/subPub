@@ -22,7 +22,7 @@
 
 ###### 例：
 ###### function test (msg) {
-    ###### console.log('订阅事件需要执行的方法：' msg)
+    console.log('订阅事件需要执行的方法：' msg)
 ###### }
 
 ###### var evntId1 = pubsub.subscribe('action1', test, '开始执行了')
